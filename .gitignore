@@ -196,3 +196,4 @@ cython_debug/
 
 # Test data
 test_data/
+output/
