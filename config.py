@@ -18,7 +18,7 @@ WHISPER_CONFIG = {
 }
 
 GROQ_CONFIG = {
-    'api_key': os.getenv('GROQ_API_KEY', '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'),
+    'api_key': os.getenv('GROQ_API_KEY'),
     'model': "llama-3.3-70b-versatile",
     'max_tokens': 2000,
     'temperature': 0.1,          
